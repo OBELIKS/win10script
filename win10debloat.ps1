@@ -37,7 +37,7 @@ $tweaks = @(
 	"InstallVLC",
 	"InstallAdobe",
 	"InstallBrave",
-	"ChangeDefaultApps",
+	#"ChangeDefaultApps",
 
 	### Windows Apps
 	"DebloatAll",
