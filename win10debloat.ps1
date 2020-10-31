@@ -83,23 +83,32 @@ $tweaks = @(
 	"DisableMeltdownCompatFlag", # "EnableMeltdownCompatFlag"    
 
 	### Service Tweaks ###
-	"DisableUpdateMSRT",          # "EnableUpdateMSRT",
-	"DisableUpdateDriver",        # "EnableUpdateDriver",
-	"DisableUpdateRestart",         # "EnableUpdateRestart",
+	#"DisableUpdateMSRT",          # 
+	"EnableUpdateMSRT",
+	#"DisableUpdateDriver",         #
+	"EnableUpdateDriver",
+	#"DisableUpdateRestart",         # 
+	"EnableUpdateRestart",
 	"DisableHomeGroups",          # "EnableHomeGroups",
 	"DisableSharedExperiences",     # "EnableSharedExperiences",
 	"DisableRemoteAssistance",      # "EnableRemoteAssistance",
 	"EnableRemoteDesktop",          # "DisableRemoteDesktop",
-	"DisableAutoplay",              # "EnableAutoplay",
-	"DisableAutorun",               # "EnableAutorun",
-	"DisableStorageSense",        # "EnableStorageSense",
-	"DisableDefragmentation",     # "EnableDefragmentation",
-	"DisableSuperfetch",          # "EnableSuperfetch",
+	#"DisableAutoplay",              # 
+	"EnableAutoplay",
+	#"DisableAutorun",               # 
+	"EnableAutorun",
+	#"DisableStorageSense",        # 
+	"EnableStorageSense",
+	#"DisableDefragmentation",     # 
+	"EnableDefragmentation",
+	#"DisableSuperfetch",          # 
+	"EnableSuperfetch",
 	"EnableIndexing",
 	"SetBIOSTimeUTC",             # "SetBIOSTimeLocal",
 	"DisableHibernation",		# "EnableHibernation",          # 
 	"EnableSleepButton",		# "DisableSleepButton",         
-	"DisableSleepTimeout",        # "EnableSleepTimeout",
+	#"DisableSleepTimeout",        # 
+	"EnableSleepTimeout",
 	# "DisableFastStartup",         # "EnableFastStartup",
 
 	### UI Tweaks ###
